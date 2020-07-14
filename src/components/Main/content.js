@@ -14,7 +14,7 @@ const Content = props => {
     <section className={defaultStyles.root}>
       <div className={defaultStyles.wrap}>
         <ContentHeader editPath={editPath}>{title}</ContentHeader>
-        <main>{children}</main>
+        <main className={defaultStyles.content}>{children}</main>
         <ContentFooter />
       </div>
       <PageInfo>

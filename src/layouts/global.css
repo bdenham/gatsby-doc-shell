@@ -22,3 +22,23 @@ li {
 *:after {
   box-sizing: border-box;
 }
+
+/* ************************************************************** */
+/* Globally overriding and applying of Gatsby and Spectrum styles */
+/* ************************************************************** */
+
+/* Left-align all content images */
+span.gatsby-resp-image-wrapper {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Style links with Spectrum colors and styles */
+.spectrum-Link, a {
+  color: var(--spectrum-link-text-color, var(--spectrum-global-color-blue-600));
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  transition: color var(--spectrum-global-animation-duration-100, 130ms) ease-in-out;
+  outline: none;
+}

@@ -13,3 +13,15 @@
   max-width: 1080px;
   min-width: 360px;
 }
+
+.content {
+  color: var(--spectrum-body-2-text-color, var(--spectrum-alias-text-color));
+  font-size: var(--spectrum-body-2-text-size, var(--spectrum-global-dimension-font-size-300));
+  font-weight: var(--spectrum-body-2-text-font-weight, var(--spectrum-alias-body-text-font-weight));
+  line-height: var(--spectrum-body-2-text-line-height, var(--spectrum-alias-body-text-line-height));
+  font-style: var(--spectrum-body-2-text-font-style, var(--spectrum-global-font-style-regular));
+  letter-spacing: var(--spectrum-body-2-text-letter-spacing, var(--spectrum-global-font-letter-spacing-none));
+  text-transform: var(--spectrum-body-2-text-transform, none);
+  margin-top: 0;
+  margin-bottom: 0;
+}
